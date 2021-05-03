@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Mesontech | Marketing Digital</title>
+</head>
+<body>
+    <header class=" container cabecalho">
+        <a href="../index.html"><h1 class="logo"></h1></a>
+        <button class="btn-menu">=</button>
+        
+        <nav class="menu">
+            <a class="btn-close">x</a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../clientes.html">Clientes</a></li>
+                <li><a href="../Servicos.html">Serviços</a></li>
+                <li><a href="../sobre.html">Sobre</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    
+    </header>
+    <div class=" container banner">
+        <div class="title">
+            <h2>OUSE INOVAR!</h2>
+            <h3>Tornamos a sua vida especial com a tecnologia em suas mãos</h3>
+        </div>
+        <div class="buttons">
+            <button class=" btn btn-contactar"><a href="../contacto.html">Entar em contacto</a></button>
+            <button class="btn btn-sobre"><a href="../sobre.html">Saiba mais sobre a Mesontech</a></button>
+        </div>
+    </div>
+    <main class="sobre container">
+        <article class="sobre">
+           <center><a href="#"><img src="../img/md.jpeg" alt="Marketing Digital" width="500" height="300"></a></center>
+            <div class="inner">
+                <h4>Marketing Digital</h4>
+                Temos para si os servicos de marketing digital para impulsionar o seu negócio.
+                <p><b>GESTÃO DE SITES</b></p>
+                    Gerimos o seu site com as melhores técnicas de SEO para Rankear seu site na web.
+                <p><b>GESTÃO DE REDES SOCIAIS</b></p>
+                    Administramos as suas redes sociais como facebook, instagram, twitter etc, para poder gerar mais fluxo de aderência aos seus produtos ou serviços.
+            </div>
+        </article>
+    </main>
+    <!-- NEWSLETTER-->
+    <section class=" container newsletter">
+        <h2>Inscreva-te agora</h2>
+        <h3>Receba novidades e muito mais</h3>
+        <form>
+            <input type="email" name="email" placeholder="Digite o seu email">
+            <button>Assinar</button>
+        </form>
+    </section>
+    <script src="../js/jquery.min.js"></script>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+    </script>
+</body>
+<footer class=" container footer">
+    <div class="social-icons">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+    </div>
+    <p class="copyright">&copy Copyright 2021 - Todos Direitos Reservados - Developed by Danilo Hamuyela</p>
+</footer>
+</html>

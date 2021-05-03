@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Mesontech | Desenvolvimento de software</title>
+</head>
+<body>
+    <header class=" container cabecalho">
+        <a href="../index.html"><h1 class="logo"></h1></a>
+        <button class="btn-menu">=</button>
+        
+        <nav class="menu">
+            <a class="btn-close">x</a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../clientes.html">Clientes</a></li>
+                <li><a href="../Servicos.html">Serviços</a></li>
+                <li><a href="../sobre.html">Sobre</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    
+    </header>
+    <div class=" container banner">
+        <div class="title">
+            <h2>OUSE INOVAR!</h2>
+            <h3>Tornamos a sua vida especial com a tecnologia em suas mãos</h3>
+        </div>
+        <div class="buttons">
+            <button class=" btn btn-contactar"><a href="../contacto.html">Entar em contacto</a></button>
+            <button class="btn btn-sobre"><a href="../sobre.html">Saiba mais sobre a Mesontech</a></button>
+        </div>
+    </div>
+    <main class="sobre container">
+        <article class="sobre">
+           <center><a href="#"><img src="../img/prog.jpg" alt="Desenvolvimento de software" width="500" height="300"></a></center>
+            <div class="inner">
+                <h4>Desenvolvimento de software</h4>
+                Desenvolvemos para si o melhor que ha no mercado de desenvolvimento de software, com qualidade e seguranca.
+                <p><b>DESKTOP</b></p>
+                    Aplicações seguras para sua empresa ou de forma particular, para administração de sua empresa ou seu negócio.
+                <p><b>WEB</b></p>
+                    Desenvolvemos para si websites dinâmicos e estáticos, seguros e defíceis de serem derrubados, com as melhores tecnicas de desenvolvimento de website do mercado.
+                <p><b>MOBILE</b></p>
+                    Desenvolvemos aplicativos móves para as Plataformas Android e iOS, para qualquer tipo de necessidade.
+            </div>
+        </article>
+    </main>
+    <!-- NEWSLETTER-->
+    <section class=" container newsletter">
+        <h2>Inscreva-te agora</h2>
+        <h3>Receba novidades e muito mais</h3>
+        <form>
+            <input type="email" name="email" placeholder="Digite o seu email">
+            <button>Assinar</button>
+        </form>
+    </section>
+    <script src="../js/jquery.min.js"></script>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+    </script>
+</body>
+<footer class=" container footer">
+    <div class="social-icons">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+    </div>
+    <p class="copyright">&copy Copyright 2021 - Todos Direitos Reservados - Developed by Danilo Hamuyela</p>
+</footer>
+</html>
